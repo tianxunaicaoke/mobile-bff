@@ -20,7 +20,7 @@
 			"payment-result": "failue"
 		}
 	],
-	"itinerary-request": [{
+	"itinerary-requests": [{
 			"id": 1,
 			"ticketId": "TC-4521",
 			"airline": "airline1",
