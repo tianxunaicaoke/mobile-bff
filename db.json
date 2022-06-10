@@ -1,0 +1,29 @@
+{
+  "ticket-contractss": [
+    {
+      "id": 1,
+      "payResult": "success"
+    },
+    {
+      "id": 2,
+      "payResult": "failue"
+    },
+    {
+      "id": 3,
+      "payResult": "failue"
+    }
+  ],
+  "itinerary": [
+    {
+      "id": 1,
+      "body": "TC-4521,airline1,12:20,18:20,6h,BeiJing,Sydney,800"
+    },
+    {
+      "id": 2,
+      "body": "FG-3321,airline3,6:20,11:20,5h,Sydney,BeiJing,650"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
