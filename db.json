@@ -1,46 +1,54 @@
 {
-  "ticket-contracts": [
-    {
-      "id":1,
-      "payment-result":"success"
-    },
-    {
-      "id": 2,
-      "payment-result": "timeout"
-    },
-    {
-      "id": 3,
-      "payment-result": "failue"
-    },
-    {
-      "id": 4,
-      "payment-result": "timeout"
-    },
-    {
-      "id": 5,
-      "payment-result": "failue"
-    }
-  ],
-  "itinerary-request": [
-    {
-      "id": 1,
-      "body": "TC-4521,airline1,12:20,18:20,6h,BeiJing,Sydney,800"
-    },
-    {
-      "id": 2,
-      "body": "FG-0624,airline3,6:20,11:20,5h,Sydney,BeiJing,650"
-    },
-    {
-      "id": 3,
-      "body": "MK-0708,airline4,12:20,18:20,6h,BeiJing,Shanghai,1200"
-    },
-    {
-      "id": 4,
-      "body": "FK-1228,airline2,6:20,11:20,5h,Shanghai,BeiJing,1150"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+	"ticket-contracts": [{
+			"id": 1,
+			"payment-result": "success"
+		},
+		{
+			"id": 2,
+			"payment-result": "timeout"
+		},
+		{
+			"id": 3,
+			"payment-result": "failue"
+		},
+		{
+			"id": 4,
+			"payment-result": "timeout"
+		},
+		{
+			"id": 5,
+			"payment-result": "failue"
+		}
+	],
+	"itinerary-request": [{
+			"id": 1,
+			"ticketId": "TC-4521",
+			"airline": "airline1",
+			"time": "3-6 12:30",
+			"ete": "6h",
+			"from": "BeiJing",
+			"to": "Sydney",
+			"price": "2800"
+		},
+		{
+			"id": 2,
+			"ticketId": "FG-0624",
+			"airline": "airline3",
+			"time": "3-7 15:30",
+			"ete": "6h",
+			"from": "Sydney",
+			"to": "BeiJing",
+			"price": "2650"
+		},
+		{
+			"id": 3,
+			"ticketId": "MK-0708",
+			"airline": "airline3",
+			"time": "3-11 14:30",
+			"ete": "4h",
+			"from": "Shanghai",
+			"to": "BeiJing",
+			"price": "1150"
+		}
+	]
 }
-
