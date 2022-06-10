@@ -1,5 +1,5 @@
 {
-  "ticket-contractss": [
+  "ticket-contractss/2": [
     {
       "id": 1,
       "payResult": "success"
@@ -13,7 +13,7 @@
       "payResult": "failue"
     }
   ],
-  "itinerary": [
+  "itinerary-request": [
     {
       "id": 1,
       "body": "TC-4521,airline1,12:20,18:20,6h,BeiJing,Sydney,800"
