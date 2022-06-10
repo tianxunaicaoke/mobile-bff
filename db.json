@@ -1,38 +1,20 @@
 {
-  "ticket-contracts": [
-    {
-      "id": 1,
-      "payment-result": [
-        {
-          "id":1,
-          "result":"success"
-        }
-         {
-          "id":2,
-          "result":"success"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "payment-result": "failue"
-    },
-    {
-      "id": 3,
-      "payment-result": "failue"
-    }
-  ],
-  "itinerary-request": [
-    {
-      "id": 1,
-      "body": "TC-4521,airline1,12:20,18:20,6h,BeiJing,Sydney,800"
-    },
-    {
-      "id": 2,
-      "body": "FG-3321,airline3,6:20,11:20,5h,Sydney,BeiJing,650"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+	"ticket-contracts": {
+		"payment-result": [{
+			"id": 1,
+			"result": "success"
+		}, {
+			"id": 2,
+			"result": "success"
+		}]
+	},
+	"itinerary-request": [{
+			"id": 1,
+			"body": "TC-4521,airline1,12:20,18:20,6h,BeiJing,Sydney,800"
+		},
+		{
+			"id": 2,
+			"body": "FG-3321,airline3,6:20,11:20,5h,Sydney,BeiJing,650"
+		}
+	]
 }
