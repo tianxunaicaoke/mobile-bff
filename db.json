@@ -1,16 +1,25 @@
 {
-  "ticket-contractss/2": [
+  "ticket-contracts": [
     {
       "id": 1,
-      "payResult": "success"
+      "payment-result": [
+        {
+          "id":1,
+          "result":"success"
+        }
+         {
+          "id":2,
+          "result":"success"
+        }
+      ]
     },
     {
       "id": 2,
-      "payResult": "failue"
+      "payment-result": "failue"
     },
     {
       "id": 3,
-      "payResult": "failue"
+      "payment-result": "failue"
     }
   ],
   "itinerary-request": [
