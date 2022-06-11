@@ -1,5 +1,5 @@
 {
-	"ticket-contracts": [{
+	"private-payments": [{
 			"id": 1,
 		        "code": 200,
 			"payment-result": "success"
@@ -25,7 +25,7 @@
 			"payment-result": "failue"
 		}
 	],
-	"private-payments": [{
+	"itinerary-requests": [{
 			"id": 1,
 			"ticketId": "TC-4521",
 			"airline": "airline1",
